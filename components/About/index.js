@@ -71,7 +71,7 @@ const About = () => {
               My teammates and I have placed 2nd in overall and 1st in match- challenge from PwC Deutschland in the INTERSCHUTZ - Hannover Hackathon 2022 which was held in the city of Hannover in Germany.
             </p>
             <p className="text-justify mt-1.5 text-sm">
-              We build a tool named Arteal that analyzes the responder's brainwave data according to the VR simulation of the emergencies and uses that data for matching responders with situations to best their skills. Arteal also has a web-based control panel which shows all the details on the real map.
+              We build a tool named Arteal that analyzes the responder&lsquo;s brainwave data according to the VR simulation of the emergencies and uses that data for matching responders with situations to best their skills. Arteal also has a web-based control panel which shows all the details on the real map.
             </p>
             <p className="text-justify mt-1.5 text-sm">
               Used Technologies: <b>AR, Flutter, Turkish Airlines Developer API</b>
@@ -84,7 +84,7 @@ const About = () => {
               My teammates and I have placed 2nd in overall and 1st in match- challenge from PwC Deutschland in the INTERSCHUTZ - Hannover Hackathon 2022 which was held in the city of Hannover in Germany.
             </p>
             <p className="text-justify mt-1.5 text-sm">
-              We build a tool named Arteal that analyzes the responder's brainwave data according to the VR simulation of the emergencies and uses that data for matching responders with situations to best their skills. Arteal also has a web-based control panel which shows all the details on the real map.
+              We build a tool named Arteal that analyzes the responder&lsquo;s brainwave data according to the VR simulation of the emergencies and uses that data for matching responders with situations to best their skills. Arteal also has a web-based control panel which shows all the details on the real map.
             </p>
             <p className="text-justify mt-1.5 text-sm">
               Used Technologies: <b>Unity 3D, NeuroSky, VR, React.js</b>
@@ -115,7 +115,7 @@ const About = () => {
             content={
               <div className="mb-2 pl-8">
                 <ul className="list-disc">
-                  <li className="text-justify">Working on the "Breach Attack Simulation" project using <b>React</b> and <b>GinGonic</b> in a full-stack development team</li>
+                  <li className="text-justify">Working on the &ldquo;Breach Attack Simulation&ldquo; project using <b>React</b> and <b>GinGonic</b> in a full-stack development team</li>
                 </ul>
               </div>
             }
@@ -129,8 +129,8 @@ const About = () => {
               <div className="mb-2 pl-8">
                 <ul className="list-disc">
                   <li className="text-justify">Worked on defense evasion, and developed malwares that are <b>100%</b> undetectable on <b>VirusTotal</b> using <b>C++</b></li>
-                  <li className="text-justify">Made <b>CTF challenges</b> in 3 different categories for Turkey's biggest CTF, STM CTF</li>
-                  <li className="text-justify">Implemented <b>REST API</b> endpoints, and developed front-end features using <b>Flask</b> for STM CTF's web application</li>
+                  <li className="text-justify">Made <b>CTF challenges</b> in 3 different categories for Turkey&lsquo;s biggest CTF, STM CTF</li>
+                  <li className="text-justify">Implemented <b>REST API</b> endpoints, and developed front-end features using <b>Flask</b> for STM CTF&lsquo;s web application</li>
                   <li className="text-justify">Worked on DevOps using <b>Ansible, Docker, Docker-Compose</b></li>
                 </ul>
               </div>

@@ -38,27 +38,27 @@ const About = () => {
       <div id="about" className="px-9 py-6 border-b-2 border-blue-500">
         <SectionTitle data={"About Me"} />
         <p className="text-justify mb-6">
-          Since my high school years, I have great interest in Cyber Security and Software Engineering. I made huge efforts to progress in these fields. Owing to my interest, I attended and organized workshops, trainings. I built an advanced foundation by taking responsibilities in professional events and participating in trainings. My goal is improving this foundation to expertise Cyber Security and Software Engineering.
+            Passionate about Cyber Security and Software Engineering since my high school years, I have dedicated myself to honing my skills and knowledge in these fields. Through actively participating in workshops, trainings, and professional events, I have built a strong foundation and taken on responsibilities to further enhance my expertise. My ultimate goal is to become an expert in Cyber Security and Software Engineering by continuously improving and expanding my skill set.
         </p>
 
         <div className="mb-6">
           <SectionTitle data={"Skills"} />
           <SkillItem
             skill={"Programming Languages"}
-            content={"C, C++, Java, JavaScript, Golang, Python, Dart, Bash"}
+            content={"Go, Java, C, C++, JavaScript, Typescript, Python"}
           />
           <div ref={isMobile ? ref : emptyRef}></div>
           <SkillItem
-            skill={"Full-Stack Development"}
-            content={"React, NextJS, NodeJS, ExpressJS, GinGonic, GoFiber, REST, Flutter, Docker, Docker-Compose, MongoDB, MySQL"}
+            skill={"Frameworks & Libraries"}
+            content={"Gin‐Gonic, Gorm, ExpressJS, React, NextJS, Flutter, Redux, TailwindCSS"}
           />
           <SkillItem
             skill={"Cyber Security"}
-            content={"Malware Development, Defense Evasion, Web Application Security, Linux Hardening"}
+            content={"Malware Development, Defense Evasion (AV and EDR Bypass)"}
           />
           <SkillItem
             skill={"Relevant Coursework"}
-            content={"Algorithm Design, Data Structures, OOP, Database Systems, Probability Theory, Algorithmic Game Theory, Big Data"}
+            content={"Algorithm Design, Data Structures, Game Theory, Computer Architecture, Object Oriented Programming, Computer Networks, Database Systems, Operating Systems, Big Data"}
           />
         </div>
 
@@ -66,12 +66,9 @@ const About = () => {
           <SectionTitle data={"Projects & Awards"} />
           <div className={"flex flex-col"}>
             <h3 className="text-md font-bold">EasyTK</h3>
-            <p className="text-sm font-bold">2nd, given by Turkish Airlines</p>
+            <p className="text-sm font-bold">2nd, given by Turkish Airlines on TEKNOFEST 2022</p>
             <p className="text-justify mt-1.5 text-sm">
-              My teammates and I have placed 2nd in overall and 1st in match- challenge from PwC Deutschland in the INTERSCHUTZ - Hannover Hackathon 2022 which was held in the city of Hannover in Germany.
-            </p>
-            <p className="text-justify mt-1.5 text-sm">
-              We build a tool named Arteal that analyzes the responder&lsquo;s brainwave data according to the VR simulation of the emergencies and uses that data for matching responders with situations to best their skills. Arteal also has a web-based control panel which shows all the details on the real map.
+              My teammates and I developed an indoor navigation application. Our solution enables passengers to find the shortest path in airports and follow the route with AR lines.
             </p>
             <p className="text-justify mt-1.5 text-sm">
               Used Technologies: <b>AR, Flutter, Turkish Airlines Developer API</b>
@@ -79,28 +76,22 @@ const About = () => {
           </div>
           <div className={"flex flex-col mt-2"}>
             <h3 className="text-md font-bold">ARTEAL</h3>
-            <p className="text-sm font-bold">1st (in Match Challenge) {"&"} 2nd (in overall), given by PwC Deutschland</p>
+            <p className="text-sm font-bold">1st (in Match Challenge) {"&"} 2nd (in overall), given by PwC Deutschland on Hackathon Interschutz 2022</p>
             <p className="text-justify mt-1.5 text-sm">
-              My teammates and I have placed 2nd in overall and 1st in match- challenge from PwC Deutschland in the INTERSCHUTZ - Hannover Hackathon 2022 which was held in the city of Hannover in Germany.
+              My teammates and I built a tool to train volunteers for crisis situations using VR and we used this data to match volunteers with situations to best their skills. We also build a web‑based control panel that shows all the details on a real‑world map.
             </p>
             <p className="text-justify mt-1.5 text-sm">
-              We build a tool named Arteal that analyzes the responder&lsquo;s brainwave data according to the VR simulation of the emergencies and uses that data for matching responders with situations to best their skills. Arteal also has a web-based control panel which shows all the details on the real map.
-            </p>
-            <p className="text-justify mt-1.5 text-sm">
-              Used Technologies: <b>Unity 3D, NeuroSky, VR, React.js</b>
+              Used Technologies: <b>React, Neurosky, VR, Unity 3D</b>
             </p>
           </div>
           <div className={"flex flex-col mt-2"}>
             <h3 className="text-md font-bold">Malware.Studio</h3>
             <p className="text-sm font-bold">1st, given by CBDDO (Turkish Presidency)</p>
             <p className="text-justify mt-1.5 text-sm">
-              APT groups create attack vectors by developing malicious software that is unique and not caught by antivirus systems. However, while performing penetration testing in the cyber security sector, tools such as “msfvenom” are used, which are well-known and far from real scenarios. My project, Malware.Studio, generates malware Golang based UD malware templates at the server. Golang allows users to generate cross-platform (platform- independent) malware. There are many features in the generation section, and the user can dynamically create malware by selecting the features that the user wants in the malware. In addition, C&C servers can be created where users can control systems infected with malware. All created servers and clients are stored in the cloud to allow users to download these applications wherever wanted to download.
+              Developed a web‑based platform to create FUD unique malware with user‑requested functionality
             </p>
             <p className="text-justify mt-1.5 text-sm">
-              With this project, I was awarded the 1st place by the Presidency Digital Transformation Office. I received my award from Dr. Ali Taha Koç, the head of the Presidential Transformation Office.
-            </p>
-            <p className="text-justify mt-1.5 text-sm">
-              Used Technologies: <b>React.js, GoFiber, MongoDB, Docker, Golang (for malware)</b>
+              Used Technologies: <b>React, GoFiber, MongoDB, Docker, Docker-Compose, My Go Based Unique Malwares</b>
             </p>
           </div>
         </div>
@@ -115,7 +106,10 @@ const About = () => {
             content={
               <div className="mb-2 pl-8">
                 <ul className="list-disc">
-                  <li className="text-justify">Working on the &ldquo;Breach Attack Simulation&ldquo; project using <b>React</b> and <b>GinGonic</b> in a full-stack development team</li>
+                  <li className="text-justify">Worked with a team responsible for the <b>back‑end</b> development of a platform used for conducting breach attack simulations and validating SIEM rules. We worked using the <b>agile</b> development methodology using <b>Go</b> as a programming language, along with many <b>AWS/</b> features such as <b>SNS/SQS queues.</b></li>
+                  <li className="text-justify">Worked on various tasks on multiple repositories. Wrote migration files, and scripts to alter the database using <b>PostgreSQL</b> and unit tests for each task.</li>
+                  <li className="text-justify">Implemented <b>REST API</b> endpoints using <b>Gin‑Gonic</b> and <b>Gorm</b></li>
+                  <li className="text-justify">Developed insights that improve SIEM integrations’ performance and validation, such as <b>Splunk</b> and <b>IBM QRadar.</b></li>
                 </ul>
               </div>
             }
@@ -128,8 +122,8 @@ const About = () => {
             content={
               <div className="mb-2 pl-8">
                 <ul className="list-disc">
-                  <li className="text-justify">Worked on defense evasion, and developed malwares that are <b>100%</b> undetectable on <b>VirusTotal</b> using <b>C++</b></li>
-                  <li className="text-justify">Made <b>CTF challenges</b> in 3 different categories for Turkey&lsquo;s biggest CTF, STM CTF</li>
+                  <li className="text-justify">Developed malwares that are <b>100%</b> undetectable at <b>VirusTotal</b> by using <b>C++</b></li>
+                  <li className="text-justify">Made <b>CTF (Capture the Flag)</b> challenges for Turkey’s biggest CTF, STM CTF 2022</li>
                   <li className="text-justify">Implemented <b>REST API</b> endpoints, and developed front-end features using <b>Flask</b> for STM CTF&lsquo;s web application</li>
                   <li className="text-justify">Worked on DevOps using <b>Ansible, Docker, Docker-Compose</b></li>
                 </ul>
@@ -171,14 +165,14 @@ const About = () => {
             subtitle={"B.S. in Computer Science"}
             location={"Ankara / Turkey"}
             date={"August 2019 - Present"}
-            content={<div className="mb-2"><b>GPA:</b> 3.53 / 4.00 (High Honor Student)</div>}
+            content={<div className="mb-2"><b>CGPA:</b> 3.53 / 4.00 (High Honor Student)</div>}
           />
           <CvItem
             title={"Sınav College"}
             subtitle={"High School"}
             location={"Ankara / Turkey"}
             date={"2015 - 2019"}
-            content={<React.Fragment><b>GPA:</b> 97.81 / 100 (School Valedictorian)</React.Fragment>}
+            content={<React.Fragment><b>CGPA:</b> 97.81 / 100 (School Valedictorian)</React.Fragment>}
           />
         </div>
 
